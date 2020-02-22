@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <!-- Head begin -->
@@ -30,9 +31,15 @@
     <div class="card">
         <div class="card-body login-card-body">
             <p class="login-box-msg">欢迎管理员登录</p>
-            <form action="#" method="post">
+            <form action="/login" method="post">
+                <c:if test="${message != null}">
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    ${message}
+                </div>
+                </c:if>
                 <div class="input-group mb-3">
-                    <input type="email" class="form-control" placeholder="邮箱">
+                    <input name="email" type="email" class="form-control" placeholder="邮箱">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-envelope"></span>
@@ -40,7 +47,7 @@
                     </div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" class="form-control" placeholder="密码">
+                    <input name="password" type="password" class="form-control" placeholder="密码">
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-lock"></span>

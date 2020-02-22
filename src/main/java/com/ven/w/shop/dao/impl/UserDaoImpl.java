@@ -12,7 +12,7 @@ public class UserDaoImpl implements UserDao {
         logger.debug("调用getUser(), email: {} password: {}", email, password);
         User user = null;
 
-        if ("admin".equals(email)) {
+        if ("admin@qq.com".equals(email)) {
             if ("admin".equals(password)) {
                 user = new User();
                 user.setEmail(email);

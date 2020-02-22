@@ -7,10 +7,11 @@ import com.ven.w.shop.service.UserService;
 
 public class UserServiceImpl implements UserService {
 
-    private UserDao userDao = (UserDao) SpringContext.context.getBean("userDao");
+    private UserDao userDao = SpringContext.getBean("userDao");
 
     @Override
     public User login(String email, String password) {
         return userDao.getUser(email, password);
+        //return null;
     }
 }
