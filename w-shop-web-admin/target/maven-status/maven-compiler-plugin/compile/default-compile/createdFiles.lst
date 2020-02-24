@@ -1,0 +1,8 @@
+com\ven\w\shop\web\admin\service\impl\UserServiceImpl.class
+com\ven\w\shop\web\admin\web\controller\MainController.class
+com\ven\w\shop\web\admin\web\interceptor\PermissionInterceptor.class
+com\ven\w\shop\web\admin\dao\impl\UserDaoImpl.class
+com\ven\w\shop\web\admin\web\controller\LoginController.class
+com\ven\w\shop\web\admin\dao\UserDao.class
+com\ven\w\shop\web\admin\web\interceptor\LoginInterceptor.class
+com\ven\w\shop\web\admin\service\UserService.class

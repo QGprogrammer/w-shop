@@ -15,5 +15,15 @@
     
     <name>w-shop-domain</name>
     <description></description>
+    
+    <dependencies>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <!-- lombok end -->
+    </dependencies>
 
 </project>
