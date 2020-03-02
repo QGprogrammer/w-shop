@@ -17,13 +17,10 @@
     <description></description>
     
     <dependencies>
-        <!-- lombok -->
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
+            <groupId>com.ven</groupId>
+            <artifactId>w-shop-commons</artifactId>
+            <version>${project.parent.version}</version>
         </dependency>
-        <!-- lombok end -->
     </dependencies>
-
 </project>

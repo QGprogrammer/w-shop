@@ -1,8 +1,0 @@
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\service\UserService.java
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\web\controller\MainController.java
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\web\controller\LoginController.java
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\dao\UserDao.java
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\web\interceptor\LoginInterceptor.java
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\dao\impl\UserDaoImpl.java
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\web\interceptor\PermissionInterceptor.java
-C:\code\w-shop\w-shop-web-admin\src\main\java\com\ven\w\shop\web\admin\service\impl\UserServiceImpl.java

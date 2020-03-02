@@ -17,5 +17,6 @@
         <module>w-shop-web-admin</module>
         <module>w-shop-web-ui</module>
         <module>w-shop-web-api</module>
+        <module>w-shop-external</module>
     </modules>
 </project>
